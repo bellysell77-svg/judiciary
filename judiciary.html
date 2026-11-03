@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Judiciary Case Records & Docket Archive">
+    <title>Judiciary • Interactive Birthday Chronicles</title>
+
+    <!-- Disguised Document Favicon (Silver & Magenta Seal) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ff007f'%3E%3Cpath d='M12 2a1 1 0 0 1 1 1v1.07A7.002 7.002 0 0 1 19 11v1h-2v-1a5 5 0 0 0-4-4.9V19h3a1 1 0 1 1 0 2H8a1 1 0 1 1 0-2h3V6.1A5.002 5.002 0 0 0 7 11v1H5v-1a7.002 7.002 0 0 1 6-6.93V3a1 1 0 0 1 1-1zm-7 11h4l-2 5-2-5zm14 0h4l-2 5-2-5z'/%3E%3C/svg%3E">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="stling.css">
+</head>
+
+<body>
+
+    <!-- Ambient Magenta & Silver Fairy Light Bokeh Circles -->
+    <div class="ambient-bokeh bokeh-1"></div>
+    <div class="ambient-bokeh bokeh-2"></div>
+    <div class="ambient-bokeh bokeh-3"></div>
+
+    <!-- Drifting Sunflower Petals & Silver Sparkles Canvas -->
+    <canvas id="ambientCanvas"></canvas>
+
+    <!-- ==========================================================================
+         THE 3D INTERACTIVE STORYBOOK (BLACK, SILVER & MAGENTA EDITION - MALE BSF)
+         ========================================================================== -->
+    <main class="book-stage">
+        <div id="bookContainer" class="book-3d">
+
+            <!-- ==============================================================
+                 SPREAD 0: LUXURIOUS BOOK COVER (OBSIDIAN BLACK, SILVER & MAGENTA)
+                 ============================================================== -->
+            <section class="book-spread spread-cover active" onclick="nextPage()">
+                <div class="cover-corner-crest crest-tl">✦</div>
+                <div class="cover-corner-crest crest-tr">✦</div>
+                <div class="cover-corner-crest crest-bl">✦</div>
+                <div class="cover-corner-crest crest-br">✦</div>
+
+                <div class="cover-badge-banner">
+                    <span>🌻</span> BEST FRIEND BIRTHDAY EDITION <span>🌻</span>
+                </div>
+
+                <h1 class="cover-main-heading">
+                    CHRONICLES OF<br>SEESAW & ANISH
+                </h1>
+
+                <div class="cover-sub-banner">
+                    A TALE OF TWO CHAOTIC BEST FRIENDS & 1 SHARED BRAIN CELL
+                </div>
+
+                <div class="cover-flowers-cluster">
+                    <span class="cover-sunflower-main">🌻</span>
+                    <span>✨</span>
+                    <span class="cover-sunflower-main">🌻</span>
+                    <span>⚡</span>
+                    <span class="cover-sunflower-main">🌻</span>
+                </div>
+
+                <button class="btn-open-book" onclick="event.stopPropagation(); nextPage()">
+                    OPEN STORYBOOK <span>→</span>
+                </button>
+            </section>
+
+
+            <!-- ==============================================================
+                 SPREAD 1: CHAPTER I — THE INCEPTION (JULY 24TH)
+                 ============================================================== -->
+            <section class="book-spread">
+                <!-- Left Page: The Inception Story -->
+                <div class="page-left">
+                    <div class="page-header-tag">
+                        <span>Chapter I • The Inception</span>
+                        <span class="chapter-number">PAGE 01</span>
+                    </div>
+
+                    <h2 class="chapter-title">The Inciting Incident</h2>
+                    <div class="chapter-subtitle">
+                        One random Roblox game → One legendary best friendship 🌻
+                    </div>
+
+                    <p style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.65;color:#e2e8f0;margin-bottom:14px;">
+                        On <strong>July 24th</strong>, in the most unexpected way possible, two complete strangers crossed paths in a random <em>Neighbors</em> game on Roblox.
+                    </p>
+
+                    <p style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.65;color:#e2e8f0;margin-bottom:18px;">
+                        Neither of us knew what was about to happen. But somehow, our exact same humor, dark wings aesthetic, music taste, and weird thoughts aligned 100%. We basically found the ultimate bro and partner in chaos.
+                    </p>
+
+                    <div style="background:#1f0618;border-left:4px solid var(--magenta-primary);padding:14px 16px;border-radius:4px;font-family:'Patrick Hand',cursive;font-size:17px;color:#ffffff;margin-top:auto;box-shadow:0 0 15px rgba(255,0,127,0.2);">
+                        "Bro-code certified: Pure homie energy, zero weirdness, just two chaotic best friends living proof of sharing 1 single brain cell."
+                    </div>
+                </div>
+
+                <!-- Right Page: Photo Evidence 1 & 2 -->
+                <div class="page-right">
+                    <div class="page-header-tag">
+                        <span>Exhibit Archive</span>
+                        <span class="chapter-number">PAGE 02</span>
+                    </div>
+
+                    <!-- Photo 1: July 24 Neighbors Inception -->
+                    <div class="book-polaroid-frame" style="--rot:-1.5deg;" onclick="openPhotoModal('WhatsApp%20Image%202026-11-03%20at%209.18.27%20PM.jpeg', 'July 24 Inception • Neighbors Game 🎮', 'July 24th: The exact moment where it all began in the Neighbors front yard! Two strangers who soon became inseparable best friends.')">
+                        <div class="washi-tape-strip"></div>
+                        <div class="book-photo-box">
+                            <img src="WhatsApp%20Image%202026-11-03%20at%209.18.27%20PM.jpeg" alt="Roblox Neighbors Game Inception" loading="lazy">
+                        </div>
+                        <div class="polaroid-caption-title">July 24 Inception 🏡</div>
+                        <div class="polaroid-caption-sub">Neighbors Game • Tap to Zoom</div>
+                    </div>
+
+                    <!-- Photo 2: Midnight Campfire -->
+                    <div class="book-polaroid-frame" style="--rot:1.5deg;" onclick="openPhotoModal('WhatsApp%20Image%202026-11-03%20at%209.18.26%20PM.jpeg', 'Midnight Campfire & Cute Teddy 🧸', 'Chilling together by the campfire with tree stumps, black & red wings, and our cute teddy bear watching our back!')">
+                        <div class="washi-tape-strip"></div>
+                        <div class="book-photo-box">
+                            <img src="WhatsApp%20Image%202026-11-03%20at%209.18.26%20PM.jpeg" alt="Roblox Campfire with Wings and Teddy" loading="lazy">
+                        </div>
+                        <div class="polaroid-caption-title">Midnight Campfire 🌌</div>
+                        <div class="polaroid-caption-sub">Black Wings & Teddy • Tap to Zoom</div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ==============================================================
+                 SPREAD 2: CHAPTER II — ADVENTURES & THE SQUAD (WITH PIE CHART & SCORE)
+                 ============================================================== -->
+            <section class="book-spread">
+                <!-- Left Page: Obby & Water Slide Photos -->
+                <div class="page-left">
+                    <div class="page-header-tag">
+                        <span>Chapter II • Chaos</span>
+                        <span class="chapter-number">PAGE 03</span>
+                    </div>
+
+                    <!-- Photo 3: Sky Obby Stage 84 -->
+                    <div class="book-polaroid-frame" style="--rot:-2deg;" onclick="openPhotoModal('WhatsApp%20Image%202026-11-03%20at%209.18.26%20PM%20(1).jpeg', 'Stage 84 Obby • Carrying You 🤝', 'High up in the clouds on Stage 84, literally carrying each other across impossible obstacles because that\'s what best friends do!')">
+                        <div class="washi-tape-strip"></div>
+                        <div class="book-photo-box">
+                            <img src="WhatsApp%20Image%202026-11-03%20at%209.18.26%20PM%20(1).jpeg" alt="Roblox Sky Obby Stage 84" loading="lazy">
+                        </div>
+                        <div class="polaroid-caption-title">Stage 84 Obby ☁️</div>
+                        <div class="polaroid-caption-sub">Carrying Each Other • Tap to Zoom</div>
+                    </div>
+
+                    <!-- Photo 4: Water Slide Chaos -->
+                    <div class="book-polaroid-frame" style="--rot:2deg;" onclick="openPhotoModal('WhatsApp%20Image%202026-11-03%20at%209.18.26%20PM%20(2).jpeg', 'Water Slide Raft Chaos 🌊', 'Riding the yellow tube into the pool, pure unfiltered chaos, and laughing until our stomachs hurt!')">
+                        <div class="washi-tape-strip"></div>
+                        <div class="book-photo-box">
+                            <img src="WhatsApp%20Image%202026-11-03%20at%209.18.26%20PM%20(2).jpeg" alt="Roblox Water Park Raft Chaos" loading="lazy">
+                        </div>
+                        <div class="polaroid-caption-title">Water Slide Chaos 🌊</div>
+                        <div class="polaroid-caption-sub">Pure Laughter • Tap to Zoom</div>
+                    </div>
+                </div>
+
+                <!-- Right Page: Score Card, Pie Chart & Support Squad -->
+                <div class="page-right">
+                    <div class="page-header-tag">
+                        <span>Bro-Code Analytics</span>
+                        <span class="chapter-number">PAGE 04</span>
+                    </div>
+
+                    <!-- Official Compatibility Score Badge -->
+                    <div class="bro-score-card" onclick="tapScore()" title="Tap to celebrate!">
+                        <div class="bro-score-left">
+                            <div class="score-badge-tag">🏆 OFFICIAL BRO-CODE AUDIT</div>
+                            <div class="score-rating-title">Duo Compatibility Score</div>
+                        </div>
+                        <div class="bro-score-right">
+                            <div class="score-number-big">100 / 100</div>
+                            <div class="score-rank-pill">S-TIER LEGENDARY DUO</div>
+                        </div>
+                    </div>
+
+                    <!-- Pie / Donut Chart Breakdown -->
+                    <div class="pie-chart-section">
+                        <div class="pie-section-title">What This Friendship Is Made Of 📊</div>
+                        <div class="pie-chart-wrap">
+                            <div class="donut-chart-bro" onclick="tapPieChart()" title="Tap to spin & celebrate!"></div>
+                            <div class="pie-legend-list">
+                                <div class="pie-legend-item">
+                                    <span class="pie-legend-dot" style="background:#ffb703;"></span>
+                                    <span>Pure Chaos & Banter</span>
+                                    <b>35%</b>
+                                </div>
+                                <div class="pie-legend-item">
+                                    <span class="pie-legend-dot" style="background:#ff007f;"></span>
+                                    <span>Bro Code & Loyalty</span>
+                                    <b>25%</b>
+                                </div>
+                                <div class="pie-legend-item">
+                                    <span class="pie-legend-dot" style="background:#e2e8f0;"></span>
+                                    <span>1 Shared Brain Cell</span>
+                                    <b>25%</b>
+                                </div>
+                                <div class="pie-legend-item">
+                                    <span class="pie-legend-dot" style="background:#79124e;"></span>
+                                    <span>Overthinking Shield</span>
+                                    <b>15%</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Teddies & Bro Fistbump -->
+                    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px;">
+                        <div style="background:#131018;border:1px solid rgba(255,0,127,0.3);border-radius:10px;padding:8px;text-align:center;cursor:pointer;" onclick="tapTeddies()">
+                            <div style="font-size:22px;">🧸 🧸</div>
+                            <div style="font-size:11px;font-weight:700;color:#ffffff;">Teddies On Duty</div>
+                            <div id="teddyBubble" style="font-family:'Patrick Hand',cursive;font-size:11px;color:var(--magenta-primary);background:#07050a;border:1px solid var(--magenta-primary);padding:1px 6px;border-radius:6px;margin-top:2px;">
+                                Tap to chat!
+                            </div>
+                        </div>
+
+                        <div style="background:#131018;border:1px solid rgba(255,0,127,0.3);border-radius:10px;padding:8px;text-align:center;cursor:pointer;" onclick="tapFistbump()">
+                            <div style="font-size:22px;">👊 🤝</div>
+                            <div style="font-size:11px;font-weight:700;color:#ffffff;">Bro Fistbump</div>
+                            <div id="fistbumpBubble" style="font-family:'Patrick Hand',cursive;font-size:11px;color:var(--magenta-primary);background:#07050a;border:1px solid var(--magenta-primary);padding:1px 6px;border-radius:6px;margin-top:2px;">
+                                Tap fistbump!
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Statistics Chips -->
+                    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-bottom:8px;">
+                        <div style="background:#110f17;border:1px solid rgba(226,232,240,0.2);padding:6px;border-radius:8px;text-align:center;">
+                            <small style="font-size:8px;color:var(--magenta-primary);font-weight:700;display:block;">FRIENDSHIP</small>
+                            <strong style="font-size:16px;color:#ffffff;">∞</strong>
+                        </div>
+                        <div style="background:#110f17;border:1px solid rgba(226,232,240,0.2);padding:6px;border-radius:8px;text-align:center;">
+                            <small style="font-size:8px;color:var(--magenta-primary);font-weight:700;display:block;">CHAOS</small>
+                            <strong style="font-size:16px;color:#ffffff;">100%</strong>
+                        </div>
+                        <div style="background:#110f17;border:1px solid rgba(226,232,240,0.2);padding:6px;border-radius:8px;text-align:center;">
+                            <small style="font-size:8px;color:var(--magenta-primary);font-weight:700;display:block;">CARE</small>
+                            <strong style="font-size:16px;color:#ffffff;">999%</strong>
+                        </div>
+                        <div style="background:#110f17;border:1px solid rgba(226,232,240,0.2);padding:6px;border-radius:8px;text-align:center;">
+                            <small style="font-size:8px;color:var(--magenta-primary);font-weight:700;display:block;">BRAIN CELL</small>
+                            <strong style="font-size:16px;color:#ffffff;">1</strong>
+                        </div>
+                    </div>
+
+                    <!-- Stickers -->
+                    <div style="display:flex;gap:4px;flex-wrap:wrap;justify-content:center;">
+                        <span style="background:#250519;color:#ff80bf;border:1px solid var(--magenta-primary);padding:3px 8px;border-radius:6px;font-family:'Patrick Hand',cursive;font-size:12px;">overthinking professional 🧠</span>
+                        <span style="background:#101a28;color:#93c5fd;border:1px solid #3b82f6;padding:3px 8px;border-radius:6px;font-family:'Patrick Hand',cursive;font-size:12px;">certified bestie 🤝</span>
+                        <span style="background:#261805;color:#fde047;border:1px solid #eab308;padding:3px 8px;border-radius:6px;font-family:'Patrick Hand',cursive;font-size:12px;">sunflower approved 🌻</span>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ==============================================================
+                 SPREAD 3: CHAPTER III — THE BIRTHDAY CAKE & FLAME RITUAL
+                 ============================================================== -->
+            <section class="book-spread">
+                <!-- Left Page: The Wish Prelude -->
+                <div class="page-left">
+                    <div class="page-header-tag">
+                        <span>Chapter III • The Ceremony</span>
+                        <span class="chapter-number">PAGE 05</span>
+                    </div>
+
+                    <h2 class="chapter-title">The Sacred Birthday Cake 🎂</h2>
+                    <div class="chapter-subtitle">
+                        Pause your overthinking for 5 seconds and make a wish, bro! 🌻
+                    </div>
+
+                    <p style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.65;color:#e2e8f0;margin-bottom:16px;">
+                        A completely unnecessary amount of effort for a completely necessary best friend. Styled in your signature Obsidian Black, Chrome Silver, and vibrant Magenta.
+                    </p>
+
+                    <!-- The Friendship Formula -->
+                    <div style="background:#110f17;border:1px solid rgba(255,0,127,0.3);border-radius:12px;padding:16px;text-align:center;box-shadow:0 4px 15px rgba(0,0,0,0.5);">
+                        <div style="font-size:11px;font-weight:700;letter-spacing:1px;color:var(--magenta-primary);margin-bottom:6px;text-transform:uppercase;">The Friendship Formula</div>
+                        <div style="font-family:'Patrick Hand',cursive;font-size:16px;color:#ffffff;line-height:1.4;">
+                            🎮 Roblox Neighbors + 😂 Same Humour + 🎵 Same Playlist + 🤝 Pure Bro Code = <strong>∞ Best Friends Forever</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Page: 3D Pop-Up Cake -->
+                <div class="page-right" style="text-align:center;">
+                    <div class="page-header-tag">
+                        <span>The Wish Ritual</span>
+                        <span class="chapter-number">PAGE 06</span>
+                    </div>
+
+                    <div class="cake-stage-box">
+                        <div class="cake-tier-3d tier-bottom">
+                            <div class="frosting-line">
+                                <div class="frost-scallop" style="left:20px;height:20px;"></div>
+                                <div class="frost-scallop" style="left:70px;height:14px;"></div>
+                                <div class="frost-scallop" style="right:70px;height:18px;"></div>
+                                <div class="frost-scallop" style="right:20px;height:22px;"></div>
+                            </div>
+                        </div>
+
+                        <div class="cake-tier-3d tier-middle">
+                            <div class="frosting-line">
+                                <div class="frost-scallop" style="left:15px;height:16px;"></div>
+                                <div class="frost-scallop" style="right:15px;height:16px;"></div>
+                            </div>
+                        </div>
+
+                        <div class="cake-tier-3d tier-top">
+                            <div class="frosting-line">
+                                <div class="frost-scallop" style="left:15px;height:16px;"></div>
+                                <div class="frost-scallop" style="right:15px;height:16px;"></div>
+                            </div>
+                        </div>
+
+                        <!-- Candles with Glowing Flames -->
+                        <div class="cake-candles-wrap">
+                            <div class="candle-unit" onclick="blowCakeCandles()" title="Tap candle to blow or relight!">
+                                <div class="flame"></div>
+                            </div>
+                            <div class="candle-unit" onclick="blowCakeCandles()" title="Tap candle to blow or relight!">
+                                <div class="flame"></div>
+                            </div>
+                            <div class="candle-unit" onclick="blowCakeCandles()" title="Tap candle to blow or relight!">
+                                <div class="flame"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button id="blowBtn" class="btn-blow-candles" onclick="blowCakeCandles()">
+                        <span>💨</span> BLOW THE CANDLES
+                    </button>
+                    <div style="font-size:11px;color:#ff80bf;margin-top:6px;font-weight:600;">
+                        (Flames blow into smoke & trigger confetti!)
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ==============================================================
+                 SPREAD 4: CHAPTER IV — THE VAULT OF TREASURES (GIFTS)
+                 ============================================================== -->
+            <section class="book-spread">
+                <!-- Left Page: Gift Introduction -->
+                <div class="page-left">
+                    <div class="page-header-tag">
+                        <span>Chapter IV • The Vault</span>
+                        <span class="chapter-number">PAGE 07</span>
+                    </div>
+
+                    <h2 class="chapter-title">The Vault of Treasures</h2>
+                    <div class="chapter-subtitle">
+                        Because apparently one birthday present wasn't nearly enough.
+                    </div>
+
+                    <p style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1.65;color:#e2e8f0;margin-bottom:14px;">
+                        Every single item in this vault was carefully selected to honor our inside jokes, aesthetic vibes, and your favourite sunflowers in life.
+                    </p>
+
+                    <div style="background:#1e0819;border-radius:12px;padding:16px;border:1px dashed var(--magenta-primary);margin-top:auto;">
+                        <span style="font-size:24px;display:block;margin-bottom:4px;">🌻 ⚡ 🏍️</span>
+                        <div style="font-family:'Patrick Hand',cursive;font-size:16px;color:#ff80bf;">
+                            "Tap each gift box on the right page to unlock and unwrap your surprises!"
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Page: 4 Interactive Gift Boxes -->
+                <div class="page-right">
+                    <div class="page-header-tag">
+                        <span>Unwrap Gifts</span>
+                        <span class="chapter-number">PAGE 08</span>
+                    </div>
+
+                    <div class="gifts-book-grid">
+                        <!-- Gift 1: Sunflower Bouquet -->
+                        <div class="gift-book-item" onclick="unwrapGiftItem(this)">
+                            <div class="gift-book-icon">🌻</div>
+                            <h4>Sunflower Bouquet</h4>
+                            <p>Your absolute favourite flower. Sunny, bright, and guaranteed to lift your mood.</p>
+                        </div>
+
+                        <!-- Gift 2: Lily Bouquet -->
+                        <div class="gift-book-item" onclick="unwrapGiftItem(this)">
+                            <div class="gift-book-icon">🤍</div>
+                            <h4>Lily Bouquet</h4>
+                            <p>Elegant, pretty, and slightly dramatic—just like you.</p>
+                        </div>
+
+                        <!-- Gift 3: Superbike -->
+                        <div class="gift-book-item" onclick="unwrapGiftItem(this)">
+                            <div class="gift-book-icon">🏍️</div>
+                            <h4>A Superbike</h4>
+                            <p>It's imaginary, but please accept it anyway. Always wear a helmet!</p>
+                        </div>
+
+                        <!-- Gift 4: Miss Dior -->
+                        <div class="gift-book-item" onclick="unwrapGiftItem(this)">
+                            <div class="gift-book-icon">🎀</div>
+                            <h4>Miss Dior</h4>
+                            <p>Completely unnecessary. Completely iconic.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ==============================================================
+                 SPREAD 5: CHAPTER V — THE FINAL LETTER FROM SEESAW
+                 ============================================================== -->
+            <section class="book-spread">
+                <!-- Left Page: Letter Part 1 -->
+                <div class="page-left">
+                    <div class="page-header-tag">
+                        <span>Chapter V • The Finale</span>
+                        <span class="chapter-number">PAGE 09</span>
+                    </div>
+
+                    <h2 class="chapter-title">Happy Birthday, Anish! 🎂✨</h2>
+
+                    <div class="parchment-letter-book">
+                        <p>
+                            First of all, touchwood and <strong>nazar na lage hamari dosti ko! 🧿</strong> Like honestly, who would’ve thought back on July 24th in a random Neighbors game on Roblox that I’d end up finding my all-time favourite best friend and partner in crime? It still blows my mind!
+                        </p>
+
+                        <p>
+                            People always talk about romantic soulmates, but true best friends are on a whole different level—pure homie energy, zero weirdness, just two chaotic bros living proof of sharing the exact same brain cell!
+                        </p>
+
+                        <p>
+                            I swear, our vibes, our energy, our humor—everything matches 100%. From cartoons and movies to our exact taste in songs, how do we literally have the exact same taste in everything?! It’s like we share the exact same brain cell! 😂
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Page: Letter Part 2 & Grand Finale Button -->
+                <div class="page-right">
+                    <div class="page-header-tag">
+                        <span>Pure Bro Code & Respect</span>
+                        <span class="chapter-number">PAGE 10</span>
+                    </div>
+
+                    <div class="parchment-letter-book">
+                        <p>
+                            Okay, but pause your overthinking for just five minutes today (yes, I know your brain is processing 100 thoughts right now 😜). You are genuinely one of the most decent, sweet, sharp, and hilariously funny guys I have ever met, even if you overthink way too much for your own good!
+                        </p>
+
+                        <p>
+                            Whenever you feel low, want to vent, overthink at 3 AM, yell about something random, or just laugh your head off—my doors are open for you 24/7. No judgment, ever. Have an absolute blast today, Anusss! Eat extra cake today, and eat a huge slice from my side too! 🍰🎉
+                        </p>
+
+                        <div class="letter-sign-hand">
+                            --Always got your back, bro,<br>
+                            seesaw 🌻🤝
+                        </div>
+                    </div>
+
+                    <div style="text-align:center;margin-top:16px;">
+                        <button class="btn-open-book" style="font-size:12px;padding:12px 24px;" onclick="triggerGrandFinale()">
+                            🎉 TRIGGER GRAND FINALE CELEBRATION
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- ======================================================================
+             PAGE FLIP NAVIGATION BAR (PREV / NEXT / CHAPTER DOTS)
+             ====================================================================== -->
+        <nav class="book-nav-controller">
+            <button id="btnPrevPage" class="nav-flip-btn" onclick="prevPage()" disabled>
+                <span>←</span> PREVIOUS PAGE
+            </button>
+
+            <div class="nav-page-dots">
+                <div class="nav-dot active" title="Cover"></div>
+                <div class="nav-dot" title="Chapter 1: The Inception"></div>
+                <div class="nav-dot" title="Chapter 2: The Adventures"></div>
+                <div class="nav-dot" title="Chapter 3: The Cake"></div>
+                <div class="nav-dot" title="Chapter 4: The Gifts"></div>
+                <div class="nav-dot" title="Chapter 5: The Letter"></div>
+            </div>
+
+            <div id="pageCounter" class="page-counter-text">Cover Page</div>
+
+            <button id="btnNextPage" class="nav-flip-btn" onclick="nextPage()">
+                NEXT CHAPTER <span>→</span>
+            </button>
+        </nav>
+    </main>
+
+    <!-- ==========================================================================
+         LIGHTBOX MODAL FOR HIGH-RES ROBLOX MEMORIES
+         ========================================================================== -->
+    <div id="photoModal" class="photo-modal-overlay" onclick="closePhotoModal()">
+        <div class="photo-modal-box" onclick="event.stopPropagation()">
+            <button class="modal-close-btn" onclick="closePhotoModal()" title="Close">✕</button>
+            <img id="modalImg" class="photo-modal-img" src="" alt="Roblox Memory">
+            <div id="modalCaption" class="modal-caption-text"></div>
+            <div id="modalStory" class="modal-story-text"></div>
+        </div>
+    </div>
+
+    <!-- Interactive Script Engine -->
+    <script src="script.js"></script>
+</body>
+
+</html>
